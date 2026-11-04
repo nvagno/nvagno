@@ -173,16 +173,23 @@ looking_for: 6-month internship
 
 ---
 
-<!-- ============================================================ -->
-<!--                          EXPERIENCE                          -->
-<!-- ============================================================ -->
-## 💼 Experience
 
-| 🏢 Where | 📅 When | 🛠️ What I Did |
-|:---|:--:|:---|
-| **Computer Vision Research Intern** <br> GRC – Universitat Politècnica de València 🇪🇸 | `Apr – Aug 2026` | Tree & fruit detection in drone imagery for orange-orchard yield estimation. Dataset of **550 images / 6,872 trees / 80,446 fruits** pre-annotated with SAM then manually corrected. Fine-tuned two **YOLOv11** models: tree instance segmentation (**mAP@50 = 0.97**) and detection of **10–15 px fruits** (**mAP@50 = 0.80**), tuned with Ray Tune + SAHI tiling. Projected detections to ground coordinates from SfM outputs, removed cross-view duplicates (spatial NMS, IoM), Fisher–Jenks clustering. |
-| **Computer Vision / MLOps Engineer** <br> Numer, Madagascar 🇲🇬 | `2022 – 2025` | Object detection on aerial orthophotos for **BPartners (now Birdia, CEA List spin-off)**. Annotation & QA, Mask R-CNN (TF/Keras) then YOLOv11, tile-border handling, shadow removal, mask post-processing, Douglas–Peucker vectorisation and GIS export. Deployed **Dockerised models on AWS Lambda** with async processing (**SQS + EventBridge**), Git & CI/CD, Scrum team. |
-| **Teaching Assistant** <br> HEI, Madagascar 🇲🇬 | `2024 – 2025` | Tutorials in **backend API development** (MVC, unit & integration testing), **object-oriented programming** (Java) and maths for CS (IEEE 754, Diffie–Hellman). |
+<!-- ============================================================ -->
+<!--                  OPEN SOURCE CONTRIBUTIONS                    -->
+<!-- ============================================================ -->
+## 🌍 Open Source Contributions
+
+### 🤝 Commits to the [b-partners](https://github.com/b-partners) Open Source Platform
+
+> **100+ commits** across **3 public repositories** of BPartners (now **Birdia**), from **Sep. 2022 to Aug. 2025** — business API, annotation platform and large-scale geospatial detection jobs.
+
+| 🔗 Repository | 📦 Stack | 🧮 Commits | 🛠️ What I Contributed |
+|:---|:--:|:--:|:---|
+| **[b-partners/geo-jobs](https://github.com/b-partners/geo-jobs)** | `Java` `GeoTools` `AWS` | **[47](https://github.com/b-partners/geo-jobs/commits?author=nvagno)** | Geospatial detection jobs on aerial imagery (roofs, coverings): [dynamic-zoom tiling](https://github.com/b-partners/geo-jobs/commit/2e50cce), [annotation masks](https://github.com/b-partners/geo-jobs/commit/21103b4), polygon **boundary merge** across tiles ([collinearity check](https://github.com/b-partners/geo-jobs/commit/6f485d3), [closed LinearRings](https://github.com/b-partners/geo-jobs/commit/5a1607d), [overlapping polygons](https://github.com/b-partners/geo-jobs/commit/88437b8)), [roof area without reprojection](https://github.com/b-partners/geo-jobs/commit/a911367), [per-object detection rates](https://github.com/b-partners/geo-jobs/commit/1f05985), [dominant-covering computation at large scale](https://github.com/b-partners/geo-jobs/commit/7f136be); infra for [multi-URL tile detection](https://github.com/b-partners/geo-jobs/commit/49f7168) and [LiDAR API](https://github.com/b-partners/geo-jobs/commit/ca0421b). |
+| **[b-partners/bpartners-api](https://github.com/b-partners/bpartners-api)** | `Java` `Spring Boot` | **[44](https://github.com/b-partners/bpartners-api/commits?author=nvagno)** | Business backend: [invoice PDF generation](https://github.com/b-partners/bpartners-api/commit/d1270d9), [invoice relaunch history](https://github.com/b-partners/bpartners-api/commit/22ec78c), [file upload/download](https://github.com/b-partners/bpartners-api/commit/c6994bf), **Bridge banking** ([account integration](https://github.com/b-partners/bpartners-api/commit/4876c24), [access-token retrieval](https://github.com/b-partners/bpartners-api/commit/dc2a7ff)), [Fintecture payments](https://github.com/b-partners/bpartners-api/commit/729d630), [Sendinblue integration](https://github.com/b-partners/bpartners-api/commit/a2c4c43), [Excel customer import](https://github.com/b-partners/bpartners-api/commit/6f81bb0), [pagination](https://github.com/b-partners/bpartners-api/commit/c84e5fa), [Money type](https://github.com/b-partners/bpartners-api/commit/2cdfbab), Cognito auth fixes, OpenAPI docs and **unit / integration tests**. |
+| **[b-partners/bpartners-annotator-api](https://github.com/b-partners/bpartners-annotator-api)** | `Java` `Spring Boot` `AWS` | **[12](https://github.com/b-partners/bpartners-annotator-api/commits?author=nvagno)** | Annotation platform backend: **job state machine** ([STARTED → COMPLETED](https://github.com/b-partners/bpartners-annotator-api/commit/ac61234), [no tasks added to started jobs](https://github.com/b-partners/bpartners-annotator-api/commit/f0e8780)), [task_id in VGG export](https://github.com/b-partners/bpartners-annotator-api/commit/f341ec7), [HikariCP datasource tuning](https://github.com/b-partners/bpartners-annotator-api/commit/71bd406), serverless (POJA) memory & env configuration. |
+
+<sub>🔍 Commits authored by [@nvagno](https://github.com/nvagno) on [b-partners](https://github.com/b-partners) repositories.</sub>
 
 ---
 
@@ -200,25 +207,6 @@ looking_for: 6-month internship
 
 <img height="200em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nvagno&theme=github_dark" alt="repos per language"/>
 <img height="200em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nvagno&theme=github_dark&utcOffset=4" alt="productive time"/>
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=nvagno&bg_color=0D1117&color=58A6FF&line=1DA1F2&point=ffffff&area=true&hide_border=true)](https://github.com/nvagno)
-
-</div>
-
-<!-- ============================================================ -->
-<!--                     CONTRIBUTION SNAKE                       -->
-<!--  Nécessite le workflow .github/workflows/snake.yml           -->
-<!--  (Platane/snk) qui publie sur la branche "output"            -->
-<!-- ============================================================ -->
-### 🐍 Watch My Contributions Get Eaten
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nvagno/nvagno/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nvagno/nvagno/output/github-snake.svg" />
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/nvagno/nvagno/output/github-snake.svg" />
-</picture>
 
 </div>
 
