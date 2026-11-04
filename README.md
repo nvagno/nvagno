@@ -12,7 +12,7 @@
 #### Computer Vision Engineer · MLOps · Backend Developer · Engineering Student @ ESIROI
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=750&height=50&lines=Computer+Vision+%7C+Drone+%26+Aerial+Imagery;3%2B+years+from+annotation+to+production;Research+Intern+%40+UPV+Valencia+%F0%9F%87%AA%F0%9F%87%B8;First-author+paper+under+review+%40+ICAART+2027;Looking+for+a+6-month+internship+%E2%80%94+Feb+2027+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=750&height=50&lines=Computer+Vision+%7C+Drone+%26+Aerial+Imagery;3%2B+years+from+annotation+to+production;Research+Intern+%40+UPV+Valencia+%F0%9F%87%AA%F0%9F%87%B8;Looking+for+a+6-month+internship+%E2%80%94+Feb+2027+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 </div>
